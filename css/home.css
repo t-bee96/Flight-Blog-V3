@@ -1,0 +1,26 @@
+@import "navbar.css";
+@import "footer.css";
+@import "typography.css";
+@import "layout.css";
+
+.card
+    {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding: 10 10;
+        transition: 0.3s;
+        width: 40%;
+        border-radius: 5px;
+    }
+
+#contactform
+    {
+        border-style: dotted;
+        border-width: thick;
+        border-color: rgb(15, 0, 100);
+    }
+
+.forminner
+    {
+        display: inline-table;
+        padding: 10px;
+    }

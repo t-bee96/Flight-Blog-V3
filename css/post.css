@@ -1,0 +1,26 @@
+@import "navbar.css";
+@import "footer.css";
+@import "typography.css";
+@import "layout.css";
+
+#article
+    {
+        font-family: "Times New Roman" ;
+        font: medium;
+        font-style: normal;
+    }
+
+.artimage
+    {
+        max-width: 40%;
+        height: auto;
+
+    }
+
+.article_layout
+
+    {
+     display: grid;   
+     justify-content: left;
+     align-content: flex-start;
+    }
