@@ -20,3 +20,11 @@ h2
         font-size: 22px;
         color: mediumslateblue;
     }
+
+h4 
+    {
+        justify-content: right;
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        color: mediumslateblue;
+    }

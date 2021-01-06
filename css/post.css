@@ -5,13 +5,20 @@
 
 #article
     {
+        display: flex;
         font-family: "Times New Roman" ;
         font: medium;
         font-style: normal;
+        max-width: 70%;
+        margin: auto;   
+        line-height: 1.2em;
+        border-style: double;
+        border-width: 0.5em;
     }
 
 .artimage
     {
+        display: block;
         max-width: 40%;
         height: auto;
 
@@ -22,5 +29,7 @@
     {
      display: grid;   
      justify-content: left;
-     align-content: flex-start;
+     border-width: 0.2em;
+     border-style: groove;
+     
     }
